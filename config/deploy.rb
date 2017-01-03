@@ -28,11 +28,8 @@ set :repo_url, "https://github.com/RpL02/deploy_test.git"
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
 
 # Default value for default_env is {}
-# set :default_env, { path: "/opt/ruby/bin:$PATH" }
-set :default_env, {
-    path: '/usr/local/rbenv/plugins/ruby-build/bin:/usr/local/rbenv/shims:/usr/local/rbenv/bin:$PATH',
-    rbenv_root: '/usr/local/rbenv'
-}
+ set :default_env, { path: "$HOME/.rbenv/bin:$PATH" }
+
 
 
 # Default value for keep_releases is 5
