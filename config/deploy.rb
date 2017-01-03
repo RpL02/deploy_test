@@ -33,10 +33,6 @@ set :default_env, {
     path: '/usr/local/rbenv/plugins/ruby-build/bin:/usr/local/rbenv/shims:/usr/local/rbenv/bin:$PATH',
     rbenv_root: '/usr/local/rbenv'
 }
-set :rbenv_roles, :all
-set :rbenv_ruby, '2.3.1'
-set :rbenv_ruby_dir, '/usr/local/rbenv/versions/2.3.1'
-set :rbenv_custom_path, '/usr/local/rbenv'
 
 
 # Default value for keep_releases is 5
