@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# gem 'therubyracer', :platforms => :ruby
+gem 'execjs'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -45,7 +48,7 @@ group :development do
 end
 
 group :development do
-	gem 'capistrano', '~> 3.7', '>= 3.7.1'
+  gem 'capistrano', '~> 3.7', '>= 3.7.1'
 	gem 'capistrano-rails', '~> 1.2'
 	gem 'capistrano-rbenv', '~> 2.1'
 end
